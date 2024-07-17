@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #service{
+            text-decoration: none;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li ><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="section">
+            <h2>Home</h2>
+            <p>This is the home section. Welcome to our website. We provide exceptional services to help you achieve your goals.</p>
+        </section>
+        
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p> We specialize in capturing life's moments through professional event, wedding, wildlife, and fashion photography. Our skilled team delivers stunning, timeless images that preserve your cherished memories and showcase your unique style. Let us help you tell your story through the lens.</p>
+        </section>
+        
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <div class="row">
+                <div class="column">
+                    <h3  id="service">Service 1</h3>
+                    <p>Capture life's moments with our professional event, wedding, and party photography services. Timeless memories preserved.</p>
+                </div>
+                <div class="column">
+                    <h3  id="service">Service 2</h3>
+                    <p>Capture nature's beauty with our professional wildlife photography services. Stunning, timeless images of the wild.</p>
+                </div>
+                <div class="column">
+                    <h3  id="service">Service 3</h3>
+                    <p>Capture style with our professional fashion photography services. Stunning, timeless images showcasing trends and elegance.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="gallery" class="section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="img1.jpeg" alt="Gallery Image 1">
+                <img src="img2.jpeg" alt="Gallery Image 2">
+                <img src="img3.jpeg" alt="Gallery Image 3">
+                <img src="img5.jpeg" alt="Gallery Image 4">
+            </div>
+        </section>
+        
+        <section id="team" class="section">
+            <h2>Our Team</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="emoji3.png" alt="Team Member 1">
+                    <h3  id="service">Sudhanshu </h3>
+                    <p>CEO</p>
+                </div>
+                <div class="column">
+                    <img src="emoji2.png" alt="Team Member 2">
+                    <h3  id="service">Adarsh </h3>
+                    <p>CTO</p>
+                </div>
+                <div class="column">
+                    <img src="emoji1.png" alt="Team Member 3">
+                    <h3  id="service">Abhishek </h3>
+                    <p>COO</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"This company is amazing! They delivered everything they promised and more."</p>
+                <h3>- Client A</h3>
+            </div>
+            <div class="testimonial">
+                <p>"I am happier with the results. The team was professional and dedicated."</p>
+                <h3>- Client B</h3>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to us for any inquiries or further information. We're here to help!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
